@@ -1,0 +1,43 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"#media1": {
+	top:10,
+	left:10,
+	right:10,
+	autoplay: false,
+	height : 800,
+    width : Ti.UI.FILL,
+    mediaControlStyle : Titanium.Media.VIDEO_CONTROL_DEFAULT,
+    scalingMode : Titanium.Media.VIDEO_SCALING_ASPECT_FIT,
+	color: "#000"
+}
+
+"#media2": {
+	top:10,
+	left:10,
+	right:10,
+	autoplay: false,
+	height : 800,
+    width : Ti.UI.FILL,
+    mediaControlStyle : Titanium.Media.VIDEO_CONTROL_DEFAULT,
+    scalingMode : Titanium.Media.VIDEO_SCALING_ASPECT_FIT,
+	color: "#000"
+}
+"#video_cont" :{
+	backgroundColor: "#4a4",
+	layout: "horizontal",
+	scrollType: "horizontal",
+	contentHeight: "100%",
+	contentWidth:"100%"
+	
+}
+"#view1":{
+	height : 800,
+    width : Ti.UI.FILL
+}
+"#view2":{
+	height : 800,
+    width : Ti.UI.FILL
+}
